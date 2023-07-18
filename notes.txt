@@ -1,0 +1,31 @@
+Additions: trade ins (4-1s)
+           dev cards
+           ports
+           trading between players
+           longest road and largest army
+
+Minor/cosmetic fixes: dice simulator (mayber have it be a button similar to endturn and when clicked a little animation)
+                      make hitboxes bigger for some spots and items
+                      clean up/organize bottom right general info area
+                      make moving robber look better (so it doesnt snap to cursor when 7 is rolled)
+                      make robber bigger so when it's placed it covers the number/looks good
+                      make it so the second road in starting phase can only be placed on the second settlement
+                      update check for win to show who actually won
+                      maybe move default road positions up a little to get them a little more centered
+
+Bugs: none currently noticed
+
+maybe instead of a box with the buildings in it, have a button for settlement, city, and road and when pressed,
+the building goes to your cursor and you can place it
+    Pros: dont have to check if you are picking up a building by coordinates
+    Cons: have to redo a lot of the picking up a building logic
+          tried but cant get it to work
+
+
+Turn steps:
+currplayer rolls dice
+everyone collects resources (or performs actions for a 7 rolled)
+currplayer can build given they meet the requirements
+currplayer can trade with anyone
+currplayer ends turn
+
